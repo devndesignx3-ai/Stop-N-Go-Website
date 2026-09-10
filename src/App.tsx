@@ -12,6 +12,7 @@ import {
 } from "lucide-react";
 import { STORE_LOCATIONS, REVIEWS } from "./data";
 import { StoreLocation, GasPrices, StationPrices, JobApplication } from "./types";
+import stopNGoLogo from "./assets/stop_n_go_logo.png";
 
 export default function App() {
   // Navigation
@@ -458,11 +459,12 @@ export default function App() {
           
           {/* Logo */}
           <div className="flex items-center gap-3 cursor-pointer select-none" onClick={() => navigateToAndScroll("home")} id="logo-branding">
-            <div className="h-11 sm:h-12 w-auto max-w-[120px] flex items-center justify-center rounded-lg overflow-hidden">
+            <div className="h-11 sm:h-12 w-auto flex items-center justify-center rounded-lg overflow-hidden">
               <img
-                src="/stop_n_go_logo.png"
+                src={stopNGoLogo}
                 alt="Stop N Go Logo"
                 className="h-full w-auto max-h-12 object-contain"
+                loading="eager"
               />
             </div>
             
@@ -1958,9 +1960,10 @@ export default function App() {
           <div className="space-y-3">
             <div className="flex items-center gap-2.5 mb-1">
               <img
-                src="/stop_n_go_logo.png"
+                src={stopNGoLogo}
                 alt="Stop N Go Logo"
-                className="h-8 w-auto object-contain rounded"
+                className="h-9 w-auto object-contain rounded"
+                loading="lazy"
               />
               <div className="flex items-center gap-1.5 leading-none">
                 <span className="text-lg font-black text-white">Stop N Go</span>
