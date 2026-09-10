@@ -50,7 +50,7 @@ export default function App() {
       title: "Cashier (Morning Shift)",
       storeName: "Stop N Go Oxford",
       storeAddress: "3604 Southpointe Pkwy, Oxford, OH 45056",
-      shift: "Morning Shift (6:00 AM start)",
+      shift: "Morning Shift (5:00 AM start)",
       type: "Part-Time / Full-Time",
       openingsCount: 1,
       status: "Actively Hiring • 1 Immediate Opening",
