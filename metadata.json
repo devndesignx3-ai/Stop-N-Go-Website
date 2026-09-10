@@ -1,0 +1,6 @@
+{
+  "name": "Stop N Go Shell",
+  "description": "Premium multi-location convenience store and Shell-branded fuel retailer in Southwest Ohio.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
